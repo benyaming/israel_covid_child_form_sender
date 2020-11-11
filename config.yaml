@@ -1,0 +1,24 @@
+children:
+  - tg_user_list:
+    - 5979588
+    - 79140232
+    data:
+      child:
+        id: "child's id"
+        first_name: "child name"
+        last_name: "child surname"
+        birth_date: "child's birthday in format dd/mm/yyyy"
+      parent:
+        id: "parent's id"
+        first_name: "parent's name"
+        last_name: "parent's surname"
+        phone: "parent's phone in format 0xx-xxxxxxx"
+        mail: "parent's email"
+      city:
+        code: city's code
+        name: "city's name"
+      kindergarten:
+        code: kindergarten's code
+        name: "kindergarten's name"
+        director_name: "kindergarten's director name and surname"
+      
