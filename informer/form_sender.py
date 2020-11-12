@@ -91,7 +91,7 @@ async def send_form(session: ClientSession, tg_user: str) -> str:
     logger.info(f'SENDING REQUEST:\n{json.dumps(form, ensure_ascii=False, indent=2)}')
 
     resp = await session.post(POST_URL, json=form)
-    content = (await resp.json())
+    content = (await resp.json(content_type=None))
     pretty_resp = json.dumps(content, ensure_ascii=False, indent=2)
 
     logger.info(f'RESPONSE:\n{pretty_resp}')
