@@ -6,7 +6,7 @@ from aiohttp import ClientSession
 from .config import CHILD_INFO, logger
 
 
-REQUEST_URL = 'https://govforms.gov.il/mw/forms/ChildHealthDeclaration@molsa.gov.il'
+REQUEST_URL = 'https://govforms.gov.il/mw/forms/ChildHealthDeclaration@labor.gov.il'
 POST_URL = 'https://govforms.gov.il/MW/Process/Data/'
 UUID_LENGTH = 36
 SEARCH_QUERY = 'requestID":"'
